@@ -5,7 +5,7 @@ class CreatePosts < ActiveRecord::Migration[7.0]
       t.text :body
       t.references :user, null: false 
 
-      t.timestamps
+      t.timestamps 
     end
   end
 end
